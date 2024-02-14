@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  font-family: Georgia;
+  font-size: 16px;
+  background: #00082e;
+}
+
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  background: #515285;
+  font-size: 0.65em;
+}
+
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav ul {
+  list-style: none;
+  
+  li {
+    position: relative;
+    margin: 3.2em 0;
+    
+    a {
+      line-height: 5em;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.4em;
+      color: rgba(#4798c3, 0.35);
+      display: block;
+      transition: all ease-out 300ms;
+    }
+  }
+}
+
+#photo {
+  width: 100%;
+  height: 100%;
+  background-image: url(Self\ Images/back3);
+  background-size: fill;
+  background-position: left;
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
